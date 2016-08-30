@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="slide_show"
+        android:summary="Enable slide show"
+        android:title="Slide show">
+    </CheckBoxPreference>
+
+
+    <EditTextPreference
+        android:key="duration_slide_show"
+        android:summary="Choose duration slide show"
+        android:numeric="integer"
+        android:dialogTitle="Choose duration slide show (sec.)"
+        android:title="Duration">
+    </EditTextPreference>
+
+    <CheckBoxPreference
+        android:key="show_only_favourites"
+        android:summary="Show only favourites"
+        android:title="Favourites">
+    </CheckBoxPreference>
+
+    <CheckBoxPreference
+        android:key="show_in_random_order"
+        android:summary="Show in random order"
+        android:title="Order">
+    </CheckBoxPreference>
+
+    <ListPreference
+        android:key="type_of_animation"
+        android:title="Animation"
+        android:dialogTitle="Choose type of animation"
+        android:entries="@array/pref_syncConnectionTypes_entries"
+        android:entryValues="@array/pref_syncConnectionTypes_values"
+        android:defaultValue="1" />
+</PreferenceScreen>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NetGallery</string>
+    <string name="title_activity_show_image">ShowImageActivity</string>
+    <string name="transition_player_show_image">transition_player_show_image</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
