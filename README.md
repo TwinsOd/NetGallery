@@ -3,7 +3,7 @@ load image to url, slide-show, add to favourites and comments, choose animation 
 
 ![Image alt](http://img-host.org.ua/images/netgalerry.gif)
 
-Данное прриложения было написало для тестового задания:
+Данное приложения было написало для тестового задания:
 
 Приложение, которое представляет собой слайд-шоу из изображений. Задачи:
 
